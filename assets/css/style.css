@@ -1,0 +1,73 @@
+body {
+	background-image: url('../images/zelda.jpg');
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    color: green;
+    font-style: strong;
+}
+header {
+	text-align: center;
+	background-color: ;
+	color: green;
+}
+
+h1 {
+	font-size: 36px;
+	font-weight: bold;
+	font-family: Verdana, arial, sans-serif;
+	padding: 8px 0px 8px 0px;
+}
+h2 {
+	font-size: 24px;
+	text-decoration: underline;
+	margin-bottom: 5px;
+}
+.wrapper {
+	max-width: 1000px;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+#instructions {
+	margin: 15px 0px 20px 0px;
+	padding: 10px;
+}
+#instructions p {
+	padding: 10px 0px 10px 0px;
+}
+#instructions p:last-child {
+	padding-bottom: 0px;
+}
+#target {
+	float: left;
+	margin-right: 40px;
+}
+#randNum {
+	font-size: 48px;
+	margin-top:5px;
+}
+#scoreBoard {
+	text-align: center;
+	margin-right: 60px
+}
+#scoreBoard p {
+	font-size: 32px;
+	padding-bottom: 15px;
+}
+.rupee {
+	display: inline-block;
+}
+.rupee img {
+	height: 200px;
+	width: 125px;
+	margin: 5px;
+	cursor: pointer;
+}
+#score {
+	margin-top: -80px;
+}
+#userScore {
+	font-size: 48px;
+	margin-top: 5px;
+}

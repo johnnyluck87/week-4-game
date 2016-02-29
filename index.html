@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Rupee Collector</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+</head>
+<body>
+	<header>
+		<h1>Rupee Collector</h1>
+	</header>
+	<div class="wrapper">
+		<div id="instructions">
+			<h2>What am I doing?</h2>
+			<p>
+				You will be given a random number at the start of the game.
+			</p><p>
+				There are four rupees below. By clicking on a rupee you will add a specific amount of points to your total score.
+			</p><p>
+				You win the game by matching your total score to the random number.
+			</p><p>
+				The value of each rupee is hidden from you until you click on it.
+			</p><p>
+				Each time the game starts, the random values of the rupees will be different.
+			</p>
+		</div>
+		<div id="target">
+			<p>THE GOAL</p>
+			<p id="randNum"></p>
+		</div>
+		
+		<div id="rupeeImages">
+			<div class="rupee" id="red">
+				<img src="assets/images/redrupee.png">
+			</div>
+			<div class="rupee" id="blue">
+				<img src="assets/images/bluerupee.png">
+			</div>
+			<div class="rupee" id="yellow">
+				<img src="assets/images/yellowrupee.png">
+			</div>
+			<div class="rupee" id="green">
+				<img src="assets/images/greenrupee.png">
+			</div>			
+		</div>
+		<div id="score">
+			<p>TOTAL SCORE</p>
+			<p id="userScore"></p>
+		</div>
+	</div>
+	</div>
+		<div id="scoreBoard">
+			<span id="result"></span>
+			<p>WINS: <span id="wins">0</span></p>
+			<p>LOSSES: <span id="losses">0</span></p>
+		</div>
+</body>
+</html>
